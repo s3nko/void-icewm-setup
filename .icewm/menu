@@ -1,0 +1,73 @@
+menu "Development" folder {
+    prog "CMake curses GUI (ccmake)" - xterm -e ccmake
+    prog "Python" - xterm -e python
+    prog "Python (v2.7)" - xterm -e python2.7
+}
+menu "Editors" folder {
+    prog "Mousepad" - mousepad
+    prog "Vi" - xterm -e vi
+    prog "Vim" - xterm -e vim
+}
+menu "Games" folder {
+    menu "Amusement" folder {
+        prog "Xclock (digital)" - xclock -digital -update 1
+        prog "Xeyes" - xeyes
+    }
+}
+menu "Graphics" folder {
+    prog "Ristretto Image Viewer" - ristretto
+}
+menu "Multimedia" folder {
+    prog "Parole Media Player" - parole
+}
+menu "Network" folder {
+    prog "FireFox" - firefox
+    prog "Mail Reader" - exo-open --launch MailReader
+    prog "TkVNC" - xterm -e tkvnc
+    prog "Web Browser" - exo-open --launch WebBrowser
+}
+menu "Science" folder {
+    prog "Xcalc" - xcalc
+}
+menu "Shells" folder {
+    prog "Dash" - xterm -e dash -i
+    prog "GIT" - xterm -e git
+    prog "rxvt-unicode" - urxvt
+    prog "Thunar File Manager" - thunar
+    prog "UXTerm" - uxterm
+    prog "Xterm" - xterm
+}
+menu "System" folder {
+    menu "Settings" folder {
+        prog "Desktop" - xfdesktop-settings
+        prog "File Manager Settings" - thunar-settings
+        prog "Preferred Applications" - exo-preferred-applications
+        prog "Removable Drives and Media" - thunar-volman-settings
+        prog "Window Manager" - xfwm4-settings
+        prog "Window Manager Tweaks" - xfwm4-tweaks-settings
+        prog "Workspaces" - xfwm4-workspace-settings
+    }
+    prog "Bulk Rename" - /usr/lib/Thunar/ThunarBulkRename
+    prog "Top" - xterm -e top
+    prog "Xconsole" - xconsole
+    prog "XLoad" - xload
+}
+menu "Utilities" folder {
+    prog "About Xfce" - xfce4-about
+    prog "Archive Manager" - file-roller
+    prog "compton" - compton
+    prog "File Manager" - exo-open --launch FileManager
+    prog "Oclock" - oclock
+    prog "picom" - picom
+    prog "Terminal Emulator" - exo-open --launch TerminalEmulator
+    prog "Xclipboard" - xclipboard
+    prog "Xclock (analog)" - xclock -analog
+    prog "Xclock (digital)" - xclock -digital
+    prog "Xcutsel" - xcutsel
+    prog "Xev" - xterm -e xev
+    prog "XFontSel" - xfontsel
+    prog "Xkill" - xkill
+    prog "Xlogo" - xlogo
+    prog "Xrefresh" - xrefresh
+    prog "Xsetroot" - xsetroot
+}

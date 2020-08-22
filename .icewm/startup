@@ -1,0 +1,8 @@
+#!/bin/bash
+feh --bg-fill ~/.wall/void1.png &
+xteddy &
+pulseaudio --start &
+setxkbmap -option caps:swapescape &
+reverse_trackpoint.sh &
+pasystray &
+redshift -x -O 5800 &
