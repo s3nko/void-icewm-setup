@@ -1,0 +1,127 @@
+ThemeDescription="3eNight - modified by ikisham"
+ThemeAuthor="Ivan Zenkov, original author (based on Albi's theme)"
+Look=pixmap
+Gradients="menubg.xpm menusel.xpm switchbg.xpm taskbarbg.xpm dialogbg.xpm taskbuttonbg.xpm taskbuttonactive.xpm taskbuttonminimized.xpm buttonA.xpm buttonI.xpm toolbuttonbg.xpm workspacebuttonbg.xpm workspacebuttonactive.xpm taskbuttonactive.xpm titleIB.xpm titleAB.xpm titleAS.xpm titleIS.xpm"
+RolloverButtonsSupported=0
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmir"
+TitleButtonsSupported="xmirs"
+ShowMenuButtonIcon=0
+TitleBarHeight=16
+
+TitleBarJustify=50
+
+BorderSizeX=1
+BorderSizeY=1
+CornerSizeX=20
+CornerSizeY=20
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+ColorNormalButton="rgb:40/40/40"
+ColorNormalButtonText="rgb:ff/ff/ff"
+ColorActiveButton="rgb:00/00/00"
+ColorActiveButtonText="rgb:ff/ff/ff"
+
+ColorNormalTitleBarText="rgb:80/80/80"
+ColorActiveTitleBarText="rgb:ff/ff/ff"
+ColorActiveTitleBarShadow="rgb:00/00/00"
+
+ColorActiveBorder="rgb:00/00/00"
+ColorNormalBorder="rgb:00/00/00"
+
+ColorDialog="rgb:4a/4a/4a"
+ColorListBox="rgb:4a/4a/4a"
+ColorListBoxText="rgb:ff/ff/ff"
+ColorListBoxSelection="rgb:4a/7f/99"
+ColorListBoxSelectionText="rgb:ff/ff/ff"
+ColorScrollBar="rgb:4a/4a/4a"
+ColorScrollBarSlider="rgb:4a/4a/4a"
+ColorScrollBarButton="rgb:4a/4a/4a"
+ColorScrollBarArrow="rgb:4a/4a/4a"
+ColorScrollBarButtonArrow="rgb:ff/ff/ff"
+ColorScrollBarInactiveArrow="rgb:80/80/80"
+ColorLabel="rgb:4a/4a/4a"
+ColorLabelText="rgb:ff/ff/ff"
+
+ColorNormalMenu="rgb:40/40/40"
+ColorActiveMenuItem="rgb:30/30/30"
+ColorNormalMenuItemText="rgb:ff/ff/ff"
+ColorActiveMenuItemText="rgb:ff/ff/ff"
+ColorDisabledMenuItemText="rgb:80/80/80"
+
+ColorDefaultTaskBar="rgb:40/40/40"
+ColorNormalTaskBarApp="rgb:40/40/40"
+ColorNormalTaskBarAppText="rgb:ff/ff/ff"
+ColorInvisibleTaskBarApp="rgb:40/40/40"
+ColorInvisibleTaskBarAppText="rgb:ff/ff/ff"
+ColorActiveTaskBarApp="rgb:30/30/30"
+ColorActiveTaskBarAppText="rgb:ff/ff/ff"
+ColorMinimizedTaskBarApp="rgb:40/40/40"
+ColorMinimizedTaskBarAppText="rgb:80/80/80"
+ColorNormalWorkspaceButton="rgb:40/40/40"
+ColorActiveWorkspaceButton="rgb:43/6c/80" # rgb:30/30/30 use this if you prefer black over blue in the workspace buttons.
+
+ColorInput="rgb:4a/4a/4a"
+ColorInputText="rgb:ff/ff/ff"
+
+TrayDrawBevel=1
+ColorTray="rgb:40/40/40"
+
+ColorClock=""
+ColorClockText="rgb:ff/ff/ff"
+
+ColorCPUStatusUser="rgb:4c/59/a6"
+ColorCPUStatusSystem="rgb:74/7c/b0"
+ColorCPUStatusNice="rgb:9d/a1/bc"
+ColorCPUStatusIdle="rgb:4e/4e/4e"
+
+ColorNetSend="rgb:4c/59/a6"
+ColorNetReceive="rgb:9d/a1/bc"
+ColorNetIdle="rgb:4e/4e/4e"
+
+ColorToolTip="rgb:ff/ff/ff"
+ColorToolTipText="rgb:00/00/00"
+
+ColorMoveSizeStatus="rgb:ce/ce/ce"
+ColorMoveSizeStatusText="rgb:00/00/00"
+
+ColorQuickSwitch="rgb:40/40/40"
+ColorQuickSwitchText="rgb:ff/ff/ff"
+ColorQuickSwitchActive="rgb:4a/7f/99"
+
+QuickSwitchHorzMargin=3 # [0-64]
+QuickSwitchVertMargin=2 # [0-64]
+QuickSwitchIconMargin=2 # [0-64]
+QuickSwitchIconBorder=3 # [0-64]
+QuickSwitchSeparatorSize=3 # [0-64]
+
+# Font Specification
+TitleFontNameXft=		"monospace:size=9:bold"
+MenuFontNameXft=		"monospace:size=9"
+MinimizedWindowFontNameXft=	"monospace:size=9"
+ActiveButtonFontNameXft=	"monospace:size=9"
+NormalButtonFontNameXft=	"monospace:size=9"
+ToolButtonFontNameXft=		"monospace:size=9"
+NormalWorkspaceFontNameXft=	"monospace:size=8"
+ActiveWorkspaceFontNameXft=	"monospace:size=8"
+QuickSwitchFontNameXft=		"monospace:size=9"
+moveSizeFontNameXft=		"monospace:size=8"
+ListBoxFontNameXft=		"monospace:size=9"
+StatusFontNameXft=		"monospace:size=9"
+ToolTipFontNameXft=		"monospace:size=9"
+FxFontNameXft=			"monospace:size=8"
+ActiveTaskBarFontNameXft=	"monospace:size=9"
+NormalTaskBarFontNameXft=	"monospace:size=9"
+ApmFontNameXft=			"monospace:size=8"
+ClockFontNameXft=		"monospace:size=9"
+InputFontNameXft=		"monospace:size=11"
+LabelFontNameXft=		"monospace:size=9"
+
+TaskBarClockLeds = 0
+DesktopBackgroundCenter = 0
+DesktopBackgroundScaled = 1
+DesktopBackgroundImage = "./background/snow_by_hakubaikou_crop.jpg"
+#DesktopBackgroundImage = "./background/snow_by_hakubaikou.jpg" # wide image.
+#DesktopBackgroundColor = "rgb:2E/4B/59"

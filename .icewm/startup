@@ -1,8 +1,21 @@
 #!/bin/bash
-feh --bg-fill ~/.wall/void1.png &
-xteddy &
-pulseaudio --start &
-setxkbmap -option caps:swapescape &
-reverse_trackpoint.sh &
-pasystray &
+
+# Appearance
 redshift -x -O 5800 &
+xrdb ~/.config/Xresources/colors/streets.x &
+feh --bg-fill --no-fehbg ~/.icewm/pape/some_kind_of_cadwallapaper.png &
+picom --config ~/.config/picom/picom.conf &
+
+# Sound
+pkill pulseaudio && pulseaudio -D &
+pasystray &
+
+# Utility/Other
+dunst &
+sudo tlp setcharge 40 75 BAT0 &
+#xteddy &
+
+# Keyboard and Mouse
+setxkbmap -option caps:swapescape &
+setup_trackpoint.sh &
+blueman-applet &
